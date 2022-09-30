@@ -1,0 +1,32 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "lib": ["es2018", "ES2020", "dom"],
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "preserveConstEnums": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "es5",
+      "sourceMap": true,
+      "outDir": "../lib/",
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": false
+    },
+    "exclude": ["../*/node_modules", "../*/lib", "../*/build"]
+  }
+  
